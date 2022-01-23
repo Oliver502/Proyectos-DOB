@@ -1,0 +1,233 @@
+
+.content-main{
+    width: 100%;
+    background:url(../img/publididad/carrusel1.jpg) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+.title-menu{
+    padding:15px;
+    text-align: center;
+    font-size: 3rem;
+    color: #d4a405;
+    font-family: 'Courgette', cursive;
+}
+.title-menu small{
+    padding: 5px;
+}
+.font1{
+   font-weight: 900;
+   color: rgb(221, 218, 218);
+   padding-top: 0px;
+   padding-bottom: 25px;
+}
+.font1 .hone{
+    padding: 20px;
+}
+.content-menu{
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 1px 10px #555;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.img-menu{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.content-menu .hmenu{
+    color: #444;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.select-menu{
+    padding: 10px;
+    margin: 0px;
+    border:none;
+    box-shadow: 1px 1px 5px #888;
+    transition: .2s ease all;
+    -webkit-transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    -ms-transition: .2s ease all;
+    -o-transition: .2s ease all;
+}
+.select-menu:hover{
+    box-shadow: 2px 2px 5px rgb(56, 92, 253);
+}
+.boton-menu{
+    padding-top: 10px;
+}
+.boton-menu .boton{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px #999;
+    background: linear-gradient(225deg, #ffcb00 0, #ffb900 12.5%, #ffa601 25%, #ff9115 37.5%, #f37b1f 50%, #e46625 62.5%, #d6542b 75%, #c9432f 87.5%, #bd3533 100%);
+    color: #fff;
+    font-weight: bold;
+    transition: .3s ease all;
+    -webkit-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    -ms-transition: .3s ease all;
+    -o-transition: .3s ease all;
+}
+
+.boton-menu .boton:hover{
+    background:radial-gradient(circle at -14.17% 55.61%, #ffffbf 0, #ffffa1 12.5%, #ffff83 25%, #ffff62 37.5%, #f2f23c 50%, #cce300 62.5%, #a4d600 75%, #79ca00 87.5%, #43be00 100%);
+    color: #000;
+}
+
+.content-combos{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.content-com{
+    padding-top: 0px;
+}
+.hcom{
+    font-size: 5.5rem;
+    font-weight: 900;
+    color: #222;
+    font-style: italic;
+}
+.title-com p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #555;
+}
+.info-des{
+    text-align: center;
+}
+.info-des .img-des{
+    width: 400px;
+    height: 350px;
+}
+.img-com{
+    padding-bottom: 20px;
+}
+.img-com img{
+    width: 100%;
+}
+.img-com button{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:1224px){
+    .select-menu{
+        padding: 4px;
+        margin: 0px;
+        font-size: 15px;
+        color: #000;
+    }
+    .hcom{
+        font-size: 2;
+    }
+    .info-des{
+        text-align: center;
+        
+    }
+    .info-des .img-des{
+        width: 300px;
+        height: 350px;
+    }
+    
+    .img-com{
+        padding-bottom: 20px;
+    }
+    .img-com img{
+        width: 100%;
+    }
+    .img-com button{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width:750px){
+    .select-menu{
+        padding: 2px;
+        margin: 0px;
+        border:none;
+        box-shadow: 1px 1px 5px #888;
+        transition: .2s ease all;
+        -webkit-transition: .2s ease all;
+        -moz-transition: .2s ease all;
+        -ms-transition: .2s ease all;
+        -o-transition: .2s ease all;
+        font-size: 15px;
+        color: #000;
+    }
+    .hcom{
+        font-size: 2;
+    }
+    .info-des{
+        text-align: center;
+        
+    }
+    .info-des .img-des{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .img-com{
+        padding-bottom: 20px;
+    }
+    .img-com img{
+        width: 100%;
+    }
+    .img-com button{
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .select-menu{
+        padding: 0px;
+        margin: 0px;
+        border:none;
+        box-shadow: 1px 1px 5px #888;
+        transition: .2s ease all;
+        -webkit-transition: .2s ease all;
+        -moz-transition: .2s ease all;
+        -ms-transition: .2s ease all;
+        -o-transition: .2s ease all;
+        font-size: 10px;
+        color: #000;
+    }
+    .hcom{
+        font-size: 5rem;
+    }
+    .info-des{
+        text-align: center;
+        
+    }
+    .info-des .img-des{
+        width: 300px;
+        height: 350px;
+    }
+    
+    .img-com{
+        padding-bottom: 20px;
+    }
+    .img-com img{
+        width: 100%;
+    }
+    .img-com button{
+        margin-top: 10px;
+    }
+    
+}

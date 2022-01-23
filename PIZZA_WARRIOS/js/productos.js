@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $.ajax({
+        type:"GET",
+        url:"Funciones/listarproductos.php",
+        success:function(r){
+            $('#productoslista').html(r);
+        }
+    });
+});

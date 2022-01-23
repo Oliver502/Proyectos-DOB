@@ -1,0 +1,408 @@
+
+
+main{
+    width: 100%;
+}
+.content-body{
+    width: 100%;
+    height: 100%;
+}
+.filtro{
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
+.conten-main{
+    background: url(../img/publicidad.jpg) no-repeat center;
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+}
+.icon-wario{
+    width: 520px;
+}
+.title1{
+    text-align: right;
+    margin-top: -3%;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 8rem;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    text-shadow: 1px 3px 0px #070707, 1px 13px 5px rgb(8, 0, 0);
+}
+.title2{
+    text-align: right;
+    margin-top: -8%;
+    padding-right: 30px;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    color: #ffe600;
+    text-shadow: 1px 1px 5px #000;
+}
+.title3{
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    background: #d63384;
+    text-shadow: 1px 3px 0px #070707, 1px 13px 5px rgb(8, 0, 0);
+    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    -ms-border-radius: 30px 0px 30px 0px;
+    -o-border-radius: 30px 0px 30px 0px;
+}
+.title4{
+    text-align: center;
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left:50px;
+    padding-right: 20px;
+    margin-left: 50px;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    text-shadow: 1px 1px 2px #070707, 1px 13px 5px rgb(8, 0, 0);
+    display: inline;
+
+}
+.oferta{
+    padding-left:530px;
+    position: absolute;
+    margin-top: -3%;
+    color: #f8d303;
+    font-weight:900;
+    font-family: 'Courgette', cursive;
+    display: inline;
+}
+.oferta span{
+    font-size: 7rem;
+    text-shadow: 1px 1px 2px #070707, 1px 13px 5px rgb(8, 0, 0);
+}
+.oferta .two{
+    font-size: 12rem;
+}
+.img-carru{
+    width: 100% !important;
+    height: 500px;
+}
+
+.btn-carru{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.content-disfrutalo{
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 20px;
+}
+.boton{
+    margin-top: 15px;
+}
+.frase{
+    margin-top: -30%;
+}
+.frase .fraseh1{
+    font-weight: bold;
+    font-size: 5rem;
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+    text-shadow: 2px 2px 20px #000;
+    text-decoration: #ffe600;
+}
+.img-promo{
+    width: 90%;
+    height: 250px;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.descrip-contact .contach{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+
+}
+.descrip-contact p{
+    padding-left: 45px;
+    color: #fff;
+}
+.content-info{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: none;
+    background: #fff;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 1px 1px 4px #888;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.content-info:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+@media screen and (max-width:1200px){
+    .icon-wario{
+        width: 340px;
+    }  
+    .title1{
+        font-size: 8rem;
+    } 
+    .title2{
+        font-size: 6rem;
+    }
+    .title3{
+        margin-top: 0px;
+        font-size: 2rem;
+        margin-left: 10px;
+    }
+    .title4{
+        font-size: 4rem;
+        padding-left: 100px;
+    }
+    .oferta{
+        padding-left: 450px;
+    }
+    .oferta span{
+        font-size: 6rem;
+    }
+    .oferta .two{
+        font-size: 9rem;
+    }
+}
+@media screen and (max-width:1019px){
+    .title1{
+        font-size: 8rem;
+    }
+    .title3{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1004px){
+    .title1{
+        font-size: 6rem;
+    }
+    .title3{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:900px){
+    .conten-main{
+        height: 400px;
+    }
+    .icon-wario{
+        width: 250px;
+    }  
+    .title1{
+        font-size: 6rem;
+    } 
+    .title2{
+        margin-top: -5%;
+        font-size: 4rem;
+    }
+    .title3{
+        margin-top: 0px;
+        font-size: 1.5rem;
+        margin-left: 100px;
+    }
+    .title4{
+        font-size: 4rem;
+    }
+    .oferta{
+        padding-left: 450px;
+    }
+    .oferta span{
+        font-size: 5rem;
+    }
+    .oferta .two{
+        font-size: 8rem;
+    }
+    .img-carru{
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    .btn-carru{
+        font-size: 3rem;
+    }
+    .frase{
+        margin-top: -40%;
+    }
+    .frase .fraseh1{
+        font-size: 3.8rem;
+    }
+    .content-disfrutalo{
+        font-size: 2rem;
+    }
+    .content-info{
+        padding-top: 0px;
+    }
+    .img-promo{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .conten-main{
+        background: url(../img/publicidad.jpg) no-repeat center;
+        background-size: cover;
+        height: 420px;
+    }
+    .icon-wario{
+        width: 240px;
+    }  
+    .title1{
+        font-size: 5rem;
+    } 
+    .title2{
+        font-size: 4rem;
+    }
+    .title3{
+        margin-top: 0px;
+        font-size: 1.3rem;
+        margin-left: 100px;
+    }
+    .title4{
+        font-size: 3.5rem;
+        padding-left: 0px;
+    }
+    .oferta{
+        padding-left: 340px;
+    }
+    .oferta span{
+        font-size: 5rem;
+    }
+    .oferta .two{
+        font-size: 8rem;
+    }
+    .img-carru{
+        height: 300px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    .btn-carru{
+        font-size: 3rem;
+    }
+    .frase{
+        margin-top: -30%;
+    }
+    .frase .fraseh1{
+        font-size: 2rem;
+    }
+    .content-disfrutalo{
+        text-align: center;
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: bold;
+        color: #444;
+    }
+  
+    .content-info{
+        padding-top: 0px;
+    }
+    .img-promo{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 600px){
+    .conten-main{
+        background: url(../img/publicidad.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    .war{
+        text-align: center;
+    }
+    .icon-wario{
+        width: 150px;
+    }  
+    .title1{
+        font-size: 3.5rem;
+    } 
+    .title2{
+        font-size: 3rem;
+    }
+    .title3{
+        margin-top: 0px;
+        font-size: 1rem;
+        margin-left: 0px;
+        text-shadow: none;
+    }
+    .title4{
+        margin-left: 0px;
+        padding-left: 0px;
+        font-size: 3rem;
+    }
+    .oferta{
+        padding-left: 230px;
+    }
+    .oferta span{
+        font-size: 4rem;
+    }
+    .oferta .two{
+        font-size: 6rem;
+    }
+    .img-carru{
+        height: 300px;
+    }
+    .btn-carru{
+        font-size: 2.1rem;
+    }
+    .frase{
+        margin-top: -40%;
+    }
+    .frase .fraseh1{
+        font-size: 2.5rem;
+    }
+    .content-info{
+        padding-top: 0px;
+    }
+    .content-info:hover{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+    .img-promo{
+        height: 200px;
+    }
+    .descrip-contact .contach{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,112 @@
+footer{
+    background: rgb(253, 250, 250);
+}
+.content-footer{
+    padding-bottom: 10px;
+    background: #111;
+    color: #fff;
+}
+.content-footer p{
+    font-size: 13px;
+}
+.final{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.final .fh4{
+    color: #d63384;
+    font-weight: bold;
+}
+.objetivo{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: justify;
+}
+.objetivo .oh{
+    font-weight: bold;
+}
+.mision{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: justify;
+}
+.mision .mh{
+    font-weight: bold;
+}
+.vision{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: justify;
+}
+.vision .vh{
+    font-weight: bold;
+}
+.img-footer{
+    width: 80px;
+}
+@media screen and (max-width:900px){
+    .img-footer{
+        width: 50px;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:750px){
+    .img-footer{
+        display: none;
+    }
+    .final p{
+        display: none;
+    }
+    .objetivo p{
+        display: none;
+    }
+    .mision p {
+        display: none;
+    }
+    .vision p{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .img-footer{
+        display: none;
+    }
+    .final{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .final p{
+        display: none;
+    }
+    .objetivo{
+        padding: 0;
+        padding-top: 5px;
+        font-size: .8rem;
+        text-align: center;
+    }
+    .objetivo p{
+        display: none;
+    }
+    .mision{
+        padding: 0;
+        padding-top: 5px;
+        font-size: .8rem;
+        text-align: center;
+    }
+    .mision p {
+        display: none;
+    }
+    .vision{
+        padding: 0;
+        padding-top: 5px;
+        font-size: .8rem;
+        text-align: center;
+    }
+    .vision p{
+        display: none;
+    }
+}

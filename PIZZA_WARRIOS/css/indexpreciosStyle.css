@@ -1,0 +1,109 @@
+
+.content-precios{
+    padding: 15px;
+    background-image: radial-gradient(circle at 43.84% -20.44%, #daffb7 0, #dfffa7 7.14%, #e4f996 14.29%, #e8ef85 21.43%, #ebe373 28.57%, #eed561 35.71%, #f0c64e 42.86%, #f2b53c 50%, #f4a32c 57.14%, #f69221 64.29%, #f8801d 71.43%, #fb6d20 78.57%, #fe5a27 85.71%, #ff4431 92.86%, #ff293d 100%);
+}
+
+.precios-pequenios{
+    border: none;
+    text-align: center;
+}
+.precios-medianos{
+    border: none;
+    text-align: center;
+    
+}
+.precios-grandes{
+    border: none;
+    text-align: center;
+   
+}
+.titlep h2{
+    font-style: oblique;
+    text-align: right;
+    font-weight: bold;
+    color: #444;
+    padding-top: 20px;
+}
+.info{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 10px;
+}
+.imgp{
+    padding-top: 10px;
+}
+.imgp img{
+    width: 150px;
+}
+
+.boton-menu{
+    padding-top: 10px;
+}
+.boton-menu .boton{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px #999;
+    background: linear-gradient(225deg, #ffcb00 0, #ffb900 12.5%, #ffa601 25%, #ff9115 37.5%, #f37b1f 50%, #e46625 62.5%, #d6542b 75%, #c9432f 87.5%, #bd3533 100%);
+    color: #fff;
+    font-weight: bold;
+    transition: .3s ease all;
+    -webkit-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    -ms-transition: .3s ease all;
+    -o-transition: .3s ease all;
+}
+
+.boton-menu .boton:hover{
+    background:radial-gradient(circle at -14.17% 55.61%, #ffffbf 0, #ffffa1 12.5%, #ffff83 25%, #ffff62 37.5%, #f2f23c 50%, #cce300 62.5%, #a4d600 75%, #79ca00 87.5%, #43be00 100%);
+    color: #000;
+}
+
+@media screen and (max-width:750px){
+    .precios-pequenios{
+        border-bottom: 1px solid #666;
+    }
+    .precios-medianos{
+        border-bottom: 1px solid #666;
+    }
+    .info{
+        font-weight: 600;
+        font-size: 1rem;
+        color: #333;
+        padding: 10px;
+    }
+    .imgp{
+        padding-top: 10px;
+    }
+    .imgp img{
+        width: 120px;
+    }
+    
+}
+
+
+@media screen and (max-width:600px){
+    .precios-pequenios{
+        border-bottom: 1px solid #666;
+    }
+    .precios-medianos{
+        border-bottom: 1px solid #666;
+    }
+    .info{
+        font-weight: 600;
+        font-size: 1rem;
+        color: #333;
+        padding: 10px;
+    }
+    .imgp{
+        padding-top: 10px;
+    }
+    .imgp img{
+        width: 120px;
+    }
+    
+}

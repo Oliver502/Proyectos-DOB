@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/indexStyle.css">
+        <link rel="stylesheet" href="css/headerStyle.css">
+        <link rel="stylesheet" href="css/footerStyle.css">
+        <link rel="stylesheet" href="css/indexpreciosStyle.css">
+
+        <!--alertar modificados Alert2-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>	
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+        
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+        <!--Iconos boostrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <title>Pizza Wario</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-2">
+                    <div class="">
+                        <!--<img src="img/pizza.png" class="icon-pizza">-->
+                    </div>
+                </div>
+                <div class="title-header col-lg-6 col-md-8 col-8">
+                    <!--<h>Pizza Warrios</h>-->
+                    <span>Pizza</span>
+                    <span>Warioz</span>
+                </div>
+                <div class="col-lg-3 col-md-2 col-2">
+                </div>
+                
+                <div class="nav-header">
+                    <nav class="nav-menu navbar-dark navbar-expand-lg navbar-expand-md">      
+                        <div class="icon">
+                            <span>¡ Lo mejor para ti !</span>
+                            <ul>
+                                <li><a href=""><i class="bi bi-handbag-fill"></i></a></li>
+                            </ul>
+                            <button class="navbar-toggler nav-botton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="row collapse navbar-collapse menu" id="navbarText" >
+                            <ul>
+                                <div>
+                                    <li class="col-lg-2 col-md-1"></li>
+                                    <li class="col-lg-2 col-md-2 col-12 text"><a href="#"><i class="bi bi-house-door"></i> Inicio</a></li>
+                                    <li class="col-lg-2 col-md-3 col-12 text"><a href="menu.php"><i class="bi bi-book-half"></i> Menús</a></li>
+                                    <li class="col-lg-2 col-md-3 col-12 text"><a href="#reservacion"><i class="bi bi-chat-left-dots"></i> Reservaciones</a></li>
+                                    <li class="col-lg-2 col-md-2 col-12 text"><a href="#"><i class="bi bi-handbag-fill"></i> Ordenes</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--Publicidad-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="conten-main">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-2 col-sm-2 col-12 war">
+                            <img src="img/W.png" class="icon-wario">
+                        </div>
+                        <div class="col-lg-8 col-md-10 col-sm-10 col-12">
+                            <div class="title1">
+                                <h>Deliciosas</h>
+                            </div>
+                            <div class="title2">
+                                <h>Pizza´s</h>
+                            </div>
+                            <div class="title3">
+                                <h>¡El sabor siempre está esperándote!</h>
+                                <h>Ordena y enseguida lo llevamos a la puerta de tu casa..</h>
+                            </div>
+                            <div class="title4">
+                                <h>Siempre a</h>
+                            </div>
+                            <div class="oferta">
+                                <span class="two">2</span>
+                                <span>X1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Precios-->
+        <div>
+            <div class="content-precios">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 precios-pequenios">
+                        <div class="row">
+                            <div class="col-6  titlep">
+                                <h2>Pequeños</h2>
+                            </div>
+                            <div class="col-6 imgp">
+                                <img src="img/pizza.png" >
+                            </div>
+                            <div class="col-12 info">
+                                <p>Unidad--------------------------Q60<br>
+                                2x1------------------------------Q120</p>
+                                <small>¡ El buen sabor es para ti !</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 precios-medianos">
+                        <div class="row">
+                            <div class="col-6 titlep">
+                                <h2>Medianos</h2>
+                            </div>
+                            <div class="col-6 imgp">
+                                <img src="img/pizza.png">
+                            </div>
+                            <div class="col-12 info">
+                                <p>Unidad--------------------------Q75<br>
+                                2x1------------------------------Q135</p>
+                                <small>¡ El buen sabor es para ti !</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 precios-grandes">
+                        <div class="row">
+                            <div class="col-6 titlep">
+                                <h2>Grandes</h2>
+                            </div>
+                            <div class="col-6 imgp">
+                                <img src="img/pizza.png" >
+                            </div>
+                            <div class="col-12 info">
+                                <p>Unidad--------------------------Q90<br>
+                                2x1------------------------------Q150</p>
+                                <small>¡ El buen sabor es para ti !</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Contenido-->
+       <div class="content-body">
+            <div class="container">
+                <br><br>
+                <!--Title-->
+                <div class="row">
+                    <div class="content-disfrutalo">
+                        <h class="dis"><i>¡ Nuestras Promociones !</i></h>
+                    </div>
+                    <br>
+                </div>
+
+                <!--Publicidad de promociones-->
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center">
+                        <div class="content-info boton-menu">
+                            <img src="img/publididad/promo1.jpg" class="img-promo">  
+                            <button class="boton">Ordena ¡YA!</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6  text-center">
+                        <div class="content-info boton-menu">
+                            <img src="img/publididad/promo2.jpg" class="img-promo">
+                            <button class="boton">Ordena ¡YA!</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6  text-center">
+                        <div class="content-info boton-menu">
+                            <img src="img/publididad/promo3.jpg" class="img-promo">
+                            <button class=" boton">Ordena ¡YA!</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
+                        <div class="content-info text-center boton-menu">
+                            <img src="img/publididad/promo4.jpg" class="img-promo">
+                            <button class=" boton">Ordena ¡YA!</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
+                        <div class="content-info text-center boton-menu">
+                            <img src="img/publididad/promo5.jpg" class="img-promo">
+                            <button class="boton">Ordena ¡YA!</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6 ">
+                        <div class="content-info text-center boton-menu">
+                            <img src="img/publididad/promo6.jpg" class="img-promo">
+                            <button class="boton">Ordena ¡YA!</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br><br>
+                <div class="col-12 text-center text-dark">
+                    <h2><i>Warios te ofrece las mejores Pizza´s</i></h2>
+                    <p><i>Siempre te esperamos</i></p>
+                </div>
+                <br><br>
+            </div>
+       </div>
+
+        <!--Carrusel-->
+        <div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-12 text-center">
+                            <img src="img/publididad/carrusel1.jpg" class="img-carru" >
+                            <div class="carousel-caption ">
+                                <div class="frase">
+                                    <h class="fraseh1">¡ El Buen sabor es para ti !</h>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="col-12 text-center" >
+                        <img src="img/publididad/carrusel2.jpg" class="img-carru">
+                        <div class="carousel-caption">
+                            <div class="frase">
+                                <h class="fraseh1">¡ Crujiente y super Delicioso !</h>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="col-12 text-center"> 
+                        <img src="img/publididad/carrusel3.jpg" class="img-carru">
+                        <div class="carousel-caption ">
+                            <div class="frase">
+                                <h class="fraseh1">¡ Pizza Pizza !</h>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <i class="bi bi-arrow-left-circle-fill btn-carru" aria-hidden="true"></i>
+                    <span class="visually-hidden">Previous</span>
+
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <i class="bi bi-arrow-right-circle-fill btn-carru" aria-hidden="true"></i>
+                    <span class="visually-hidden">Next</span>
+                    
+                </button>
+            </div>
+        </div>
+        <br>
+        
+        <!--Formulario-->
+        <div id="reservacion">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3><b>Cotiza tu Reservación de Pizzas</b></h3>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <p>
+                            <i class="bi bi-circle-fill"></i> Fiestas <br>
+                            <i class="bi bi-circle-fill"></i> Eventos Especiales<br>
+                            <i class="bi bi-circle-fill"></i> Convivios <br>
+                            <center><b><i>Te Ofrecemos los mejores descuentos</i></b></center>
+                        </p>
+                    </div>
+                </div>
+                <form id="form" method="POST">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="correo" name="correo" placeholder="Ingrese su Correo">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Ingrese su No. Telefono">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="mb-3">
+                                <textarea class="form-control" id="descripcion" name="descripcion" rows="3" placeholder="Describa su consulta, de forma clara."></textarea>
+                           </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-center">
+                    <button type="button" id="enviar" class="btn btn-primary btn-lg">Enviar</button>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <br>
+                        <div id="alertf">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+            
+    <!--script JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/cotizacion.js"></script>
+
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="content-footer">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                            <div class="final">
+                                <h class="fh4">Pizzeria Wario´s <img src="img/pizza.png" class="img-footer"></h>
+                                <p>Disfruta de la Mejor Pizza desde tu hogar
+                                pizzawario@gmail.com<br>
+                                233311 / 122299</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                            <div class="objetivo">
+                                <h class="oh">Objetivo <i class="bi bi-building"></i></h>
+                                <p>Ser la mejor empresa en calidad y servicio para poder satisfacer 
+                                   las necesidades de nuestros clientes.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                            <div class="mision">
+                                <h class="mh">Misión <i class="bi bi-journal-check"></i></h>
+                                <p>Brindar un servicio de calidad a nivel regional, proporcionando a 
+                                   nuestros clientes una variedad de productos.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                           <div class="vision">
+                               <h class="vh"> Visión <i class="bi bi-journal-bookmark-fill"></i></h>
+                               <p>Ser una pizzería líder a nivel nacional, con productos de calidad y 
+                                  un servicio superior.</p>
+                           </div>
+                        </div>
+                        <div class="col-12">
+                            <hr>
+                            <center>
+                                <p>Derechos de Autor Reservados Copyright©</p>
+                            </center>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
